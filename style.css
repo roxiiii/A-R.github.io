@@ -1,0 +1,584 @@
+@font-face{
+	src: url("Courgette/Courgette-Regular.ttf");
+	font-family: myFont;
+}
+
+body{
+    background-color: #630707;
+}
+
+.content{
+    background-color:#ffffff;
+	opacity:0.9;
+	overflow:auto;
+	width: 20%;
+	height: 65%;
+	border-radius: 5px;
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#wrapper{
+    color:#630707;
+    text-align: center;
+    padding:0;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: myFont;
+}
+
+.bloc button{
+    position: absolute;
+    border-radius: 15%;
+    width: 9%;
+    height:7%;
+    top: 77.35%;
+    margin-left: -5%;
+    outline: none;
+    border: none;
+    background-color: #ffffff;
+}
+
+.bloc p{
+    font-family: myFont;
+    padding: 2%;
+    color:#630707;
+}
+
+.bloc2{
+    position: absolute;
+    border-radius: 10%;
+    width: 9%;
+    height:7%;
+    margin-top: 5%;
+    margin-left:7.75%;
+    outline: none;
+    border: none;
+    background-color: #ffffff;
+}
+
+.bloc2 a{
+    text-decoration: none;
+    font-family: myFont;
+    text-decoration: none;
+    text-align: center;
+    padding: 0;
+    color:#630707;
+}
+
+.bloc3{
+    position: absolute;
+    border-radius: 15%;
+    width: 12%;
+    height:auto;
+    top: 72%;
+    margin-left: -7.35%;
+    outline: none;
+    border: none;
+    background-color: #ffffff;
+}
+
+.bloc3 a{
+    text-decoration: none;
+    font-family: myFont;
+    text-align: center;
+    padding: 0;
+    color:#630707;
+}
+.bloc4{
+    position: absolute;
+    border-radius: 10%;
+    width: 12%;
+    height:auto;
+    top: 82.37%;
+    left:51.25%;
+    outline: none;
+    border: none;
+    background-color: #ffffff;
+}
+
+.bloc4 a{
+    text-decoration: none;
+    font-family: myFont;
+    text-align: center;
+    padding: 0;
+    color:#630707;
+}
+
+#letter1Button{
+    position: absolute;
+    border-radius: 15%;
+    width: 9%;
+    height:7%;
+    top: 10%;
+    left:45%;
+    outline: none;
+    border: none;
+    background-color: #ffffff;
+    font-family: myFont;
+    color:#630707;
+}
+
+#letter2Button{
+    position: absolute;
+    border-radius: 15%;
+    width: 9%;
+    height:7%;
+    top: 20%;
+    left:45%;
+    outline: none;
+    border: none;
+    background-color: #ffffff;
+    font-family: myFont;
+    color:#630707;
+}
+
+#letter3Button{
+    position: absolute;
+    border-radius: 15%;
+    width: 9%;
+    height:7%;
+    top: 30%;
+    left:45%;
+    outline: none;
+    border: none;
+    background-color: #ffffff;
+    font-family: myFont;
+    color:#630707;
+}
+
+#letter4Button{
+    position: absolute;
+    border-radius: 15%;
+    width: 9%;
+    height:7%;
+    top: 40%;
+    left:45%;
+    outline: none;
+    border: none;
+    background-color: #ffffff;
+    font-family: myFont;
+    color:#630707;
+}
+
+#letter5Button{
+    position: absolute;
+    border-radius: 15%;
+    width: 9%;
+    height:7%;
+    top: 50%;
+    left:45%;
+    outline: none;
+    border: none;
+    background-color: #ffffff;
+    font-family: myFont;
+    color:#630707;
+}
+
+#letter6Button{
+    position: absolute;
+    border-radius: 15%;
+    width: 9%;
+    height:7%;
+    top: 60%;
+    left:45%;
+    outline: none;
+    border: none;
+    background-color: #ffffff;
+    font-family: myFont;
+    color:#630707;
+}
+
+#letter7Button{
+    position: absolute;
+    border-radius: 15%;
+    width: 9%;
+    height:7%;
+    top: 70%;
+    left:45%;
+    outline: none;
+    border: none;
+    background-color: #ffffff;
+    font-family: myFont;
+    color:#630707;
+}
+
+#letter8Button{
+    position: absolute;
+    border-radius: 15%;
+    width: 9%;
+    height:7%;
+    top: 80%;
+    left:45%;
+    outline: none;
+    border: none;
+    background-color: #ffffff;
+    font-family: myFont;
+    color:#630707;
+}
+
+#letter9Button{
+    position: absolute;
+    border-radius: 15%;
+    width: 9%;
+    height:8%;
+    top: 90%;
+    left:45%;
+    outline: none;
+    border: none;
+    background-color: #ffffff;
+    font-family: myFont;
+    color:#630707;
+}
+
+#letter10Button{
+    position: absolute;
+    border-radius: 15%;
+    width: 9%;
+    height:8%;
+    top: 100%;
+    left:45%;
+    outline: none;
+    border: none;
+    background-color: #ffffff;
+    font-family: myFont;
+    color:#630707;
+}
+
+
+#letter11Button{
+    position: absolute;
+    border-radius: 15%;
+    width: 9%;
+    height:7%;
+    top: 110%;
+    left:45%;
+    outline: none;
+    border: none;
+    background-color: #ffffff;
+    font-family: myFont;
+    color:#630707;
+}
+
+#letter12Button{
+    position: absolute;
+    border-radius: 15%;
+    width: 9%;
+    height:7%;
+    top: 120%;
+    left:45%;
+    outline: none;
+    border: none;
+    background-color: #ffffff;
+    font-family: myFont;
+    color:#630707;
+}
+#letter13Button{
+    position: absolute;
+    border-radius: 15%;
+    width: 9%;
+    height:8%;
+    top: 130%;
+    left:45%;
+    outline: none;
+    border: none;
+    background-color: #ffffff;
+    font-family: myFont;
+    color:#630707;
+}
+#letter14Button{
+    position: absolute;
+    border-radius: 15%;
+    width: 9%;
+    height:8%;
+    top: 140%;
+    left:45%;
+    outline: none;
+    border: none;
+    background-color: #ffffff;
+    font-family: myFont;
+    color:#630707;
+}
+
+#letter15Button{
+    position: absolute;
+    border-radius: 15%;
+    width: 9%;
+    height:7%;
+    top: 150%;
+    left:45%;
+    outline: none;
+    border: none;
+    background-color: #ffffff;
+    font-family: myFont;
+    color:#630707;
+}
+#letter16Button{
+    position: absolute;
+    border-radius: 15%;
+    width: 9%;
+    height:7%;
+    top: 160%;
+    left:45%;
+    outline: none;
+    border: none;
+    background-color: #ffffff;
+    font-family: myFont;
+    color:#630707;
+}
+
+#letter17Button{
+    position: absolute;
+    border-radius: 15%;
+    width: 9%;
+    height:7%;
+    top: 170%;
+    left:45%;
+    outline: none;
+    border: none;
+    background-color: #ffffff;
+    font-family: myFont;
+    color:#630707;
+}
+
+::-webkit-scrollbar{
+    width:6px;
+    background-color:#2e3033;
+}
+
+::-webkit-scrollbar-thumb{
+    background:linear-gradient(transparent,#34443c);
+    border-radius:6px;
+}
+::-webkit-scrollbar-thumb:hover{
+    background:linear-gradient(transparent,#22232c);
+}
+
+
+/*slider*/
+.carousel{
+    width: 100vw;
+    height:100vh;
+    position:relative;
+}
+.carousel>ul{
+    margin: 0;
+    padding: 0%;
+    list-style: none;
+}
+.slide{
+    position:absolute;
+    inset:0;
+    opacity:0;
+    transition: 200ms opacity ease-in-out;
+    transition-delay: 200ms;
+}
+.slide>img{
+    display:block;
+    max-width: 100%;
+    max-height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.slide[data-active]{
+    opacity: 1;
+    z-index: 1;
+    transition-delay: 0ms;
+}
+.carousel-button{
+    position:absolute;
+    background: none;
+    border: none;
+    font-size:4rem;
+    top:50%;
+    z-index:2;
+    transform:translateY(-50%);
+    color: rgba(255, 255, 255, 5);
+    cursor: pointer;
+    border-radius: .25rem;
+    padding: 0 .5rem;
+    background-color: rgba(0, 0, 0, .1);
+}
+.carousel-button:hover, .carousel-button:focus{
+    color: white;
+    background-color: rgba(0, 0, 0, .2);
+}
+.carousel-button:focus{
+    outline: none;
+}
+.carousel-button.prev{
+    left: 1rem;
+}
+.carousel-button.next{
+    right: 1rem;
+}
+
+@media only screen and (max-width: 600px)
+{
+    .content{
+        width: 50%;
+	    height: 40%;
+    }
+
+    #wrapper{
+        font-size: 14px;
+    }
+
+    .bloc button{
+        left: 72%;
+        transform: translate(-78%, -73%);
+    }
+    
+    .bloc2{
+        left: 34%;
+        top: 77%;
+        transform: translate(-78%, -73%);
+    }
+
+    .bloc3{
+        left: 53%;
+        top: 78%;
+        transform: translate(-78%, -73%);
+    }
+
+    .slide>img{
+        max-width: 100%;
+        max-height: 100%;
+        padding-top: 10%;
+        top:5rem;
+        bottom: 5rem;
+    }
+
+}
+
+@media only screen and (min-width: 601px)
+{
+    .content{
+        width: 50%;
+	    height: 40%;
+    }
+
+    #wrapper{
+        font-size: 19px;
+    }
+
+    .bloc button{
+        left: 73.5%;
+        transform: translate(-78%, -73.5%);
+    }
+    
+    .bloc2{
+        left: 30%;
+        top: 77%;
+        transform: translate(-78%, -73%);
+    }
+
+    .bloc3{
+        left: 53%;
+        top: 78%;
+        transform: translate(-78%, -73%);
+    }
+
+    .slide>img{
+        max-width: 100%;
+        max-height: 100%;
+        top :5rem;
+        bottom: 5rem;
+    }
+
+}
+
+@media only screen and (min-width: 768px)
+{
+    .content{
+        width: 40%;
+	    height: 40%;
+    }
+
+    #wrapper{
+        font-size: 20px;
+    }
+
+    .bloc button{
+        left: 69%;
+        transform: translate(-78%, -69%);
+    }
+
+    .bloc2{
+        left: 35%;
+        top: 77%;
+        transform: translate(-78%, -73%);
+    }
+
+    .bloc3{
+        left: 53%;
+        top: 78%;
+        transform: translate(-78%, -73%);
+    }
+
+    .slide>img{
+        max-width: 100%;
+        max-height: 100%;
+        top:5rem;
+        bottom: 5rem;
+    }
+}
+
+@media only screen and (min-width: 992px)
+{
+    .content{
+        width: 30%;
+	    height: 40%;
+    }
+
+    #wrapper{
+        font-size: 22px;
+    }
+
+    .bloc button{
+        left: 64%;
+        transform: translate(-78%, -64%);
+    }
+    .bloc2{
+        left: 40%;
+        top: 77%;
+        transform: translate(-78%, -73%);
+    }
+    .bloc3{
+        left: 54%;
+        top: 78%;
+        transform: translate(-78%, -73%);
+    }
+}
+
+@media only screen and (min-width: 1200px)
+{
+    .content{
+        width: 30%;
+	    height: 40%;
+    }
+
+    #wrapper{
+        font-size: 25px;
+    }
+
+    .bloc button{
+        left: 64.5%;
+        transform: translate(-78%, -64.5%);
+    }
+    .slide>img{
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+    .bloc2{
+        left: 38%;
+        top: 77%;
+        transform: translate(-78%, -73%);
+    }
+}
