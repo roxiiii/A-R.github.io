@@ -262,8 +262,9 @@ body{
 @media only screen and (min-width: 601px)
 {
     .content{
-        width: 50%;
-	    height: 40%;
+        top:40%;
+        width: 60%;
+	    height: 50%;
     }
 
     #wrapper{
@@ -310,10 +311,12 @@ body{
 
 @media only screen and (min-width: 768px)
 {
-    .content{
-        width: 40%;
-	    height: 40%;
+   .content{
+        top:40%;
+        width: 60%;
+	    height: 50%;
     }
+
 
     #wrapper{
         font-size: 20px;
