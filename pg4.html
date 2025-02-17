@@ -27,6 +27,8 @@
             color: #630707;
             text-align: justify;
             font-family: Arial, sans-serif;
+            max-height: 70vh;  /* Limit height */
+            max-width: 70vh;
         }
 
         .close-btn {
@@ -68,13 +70,21 @@
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
-            width: 80vw;  /* Adjust width as needed */
+            max-width: 80vw;  /* Adjust width as needed */
             max-height: 80vh;  /* Set max height */
             overflow-y: auto;  /* Enable vertical scrolling */
             background: white;
             padding: 20px;
             border: 2px solid black;
             z-index: 1000;
+        }
+        #popupText {
+            font-size: 1.2rem; /* Adjust for readability */
+            line-height: 1.6; /* Improve spacing */
+            text-align: justify;
+            overflow-y: auto; /* Ensure text scrolls */
+            max-height: 65vh; /* Prevent the text from overflowing */
+            padding-right: 10px; /* Avoid cutting text */
         }
     </style>
 </head>

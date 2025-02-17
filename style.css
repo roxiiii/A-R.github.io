@@ -347,15 +347,15 @@ body{
 
 ::-webkit-scrollbar{
     width:6px;
-    background-color:#2e3033;
+    background-color:#630707;
 }
 
 ::-webkit-scrollbar-thumb{
-    background:linear-gradient(transparent,#34443c);
+    background:linear-gradient(transparent,#9a1f1f);
     border-radius:6px;
 }
 ::-webkit-scrollbar-thumb:hover{
-    background:linear-gradient(transparent,#22232c);
+    background:linear-gradient(transparent,#bc2020);
 }
 
 
