@@ -9,7 +9,6 @@
         .content {
             display: none; /* Hidden by default */
             background-color: #ffffff;
-            opacity: 0.9;
             overflow: auto;
             width: 50%;
             height: 70%;
@@ -61,6 +60,21 @@
 
         button:hover {
             background-color: #8a0c0c;
+        }
+
+        #popup {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 80vw;  /* Adjust width as needed */
+            max-height: 80vh;  /* Set max height */
+            overflow-y: auto;  /* Enable vertical scrolling */
+            background: white;
+            padding: 20px;
+            border: 2px solid black;
+            z-index: 1000;
         }
     </style>
 </head>
