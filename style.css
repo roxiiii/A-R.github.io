@@ -422,28 +422,43 @@ body{
 @media only screen and (max-width: 600px)
 {
     .content{
-        width: 70%;
-	    height: 60%;
+        top:40%;
+        width: 60%;
+	    height: 50%;
     }
 
     #wrapper{
-        font-size: 14px;
+        font-size: 20px;
     }
 
     .bloc button{
-        left: 72%;
+        left: 65%;
+        top: 72%;
+        width:35%;
+        height: 7%;
         transform: translate(-78%, -73%);
     }
     
     .bloc2{
-        left: 34%;
+        left: 52%;
         top: 77%;
+        width:35%;
+        height: 7%;
         transform: translate(-78%, -73%);
     }
 
     .bloc3{
-        left: 53%;
-        top: 78%;
+        left: 67%;
+        top: 88.5%;
+        width:35%;
+        height: 7%;
+        transform: translate(-78%, -73%);
+    }
+    .bloc4{
+        left: 60%;
+        top: 96.5%;
+        width:35%;
+        height: 7%;
         transform: translate(-78%, -73%);
     }
 
