@@ -109,240 +109,25 @@ body{
     color:#630707;
 }
 
-#letter1Button{
-    position: absolute;
-    border-radius: 15%;
-    width: 9%;
-    height:7%;
-    top: 10%;
-    left:45%;
-    outline: none;
-    border: none;
-    background-color: #ffffff;
-    font-family: myFont;
-    color:#630707;
+.button-container {
+    position: relative; /* Ensures buttons flow properly */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px; /* Adds space between buttons */
+    margin-top: 20px;
 }
 
-#letter2Button{
-    position: absolute;
+.button-container button {
     border-radius: 15%;
-    width: 9%;
-    height:7%;
-    top: 20%;
-    left:45%;
-    outline: none;
+    width: 30%; /* Adjust as needed */
+    height: auto;
+    padding: 10px;
     border: none;
     background-color: #ffffff;
     font-family: myFont;
-    color:#630707;
-}
-
-#letter3Button{
-    position: absolute;
-    border-radius: 15%;
-    width: 9%;
-    height:7%;
-    top: 30%;
-    left:45%;
-    outline: none;
-    border: none;
-    background-color: #ffffff;
-    font-family: myFont;
-    color:#630707;
-}
-
-#letter4Button{
-    position: absolute;
-    border-radius: 15%;
-    width: 9%;
-    height:7%;
-    top: 40%;
-    left:45%;
-    outline: none;
-    border: none;
-    background-color: #ffffff;
-    font-family: myFont;
-    color:#630707;
-}
-
-#letter5Button{
-    position: absolute;
-    border-radius: 15%;
-    width: 9%;
-    height:7%;
-    top: 50%;
-    left:45%;
-    outline: none;
-    border: none;
-    background-color: #ffffff;
-    font-family: myFont;
-    color:#630707;
-}
-
-#letter6Button{
-    position: absolute;
-    border-radius: 15%;
-    width: 9%;
-    height:7%;
-    top: 60%;
-    left:45%;
-    outline: none;
-    border: none;
-    background-color: #ffffff;
-    font-family: myFont;
-    color:#630707;
-}
-
-#letter7Button{
-    position: absolute;
-    border-radius: 15%;
-    width: 9%;
-    height:7%;
-    top: 70%;
-    left:45%;
-    outline: none;
-    border: none;
-    background-color: #ffffff;
-    font-family: myFont;
-    color:#630707;
-}
-
-#letter8Button{
-    position: absolute;
-    border-radius: 15%;
-    width: 9%;
-    height:7%;
-    top: 80%;
-    left:45%;
-    outline: none;
-    border: none;
-    background-color: #ffffff;
-    font-family: myFont;
-    color:#630707;
-}
-
-#letter9Button{
-    position: absolute;
-    border-radius: 15%;
-    width: 9%;
-    height:8%;
-    top: 90%;
-    left:45%;
-    outline: none;
-    border: none;
-    background-color: #ffffff;
-    font-family: myFont;
-    color:#630707;
-}
-
-#letter10Button{
-    position: absolute;
-    border-radius: 15%;
-    width: 9%;
-    height:8%;
-    top: 100%;
-    left:45%;
-    outline: none;
-    border: none;
-    background-color: #ffffff;
-    font-family: myFont;
-    color:#630707;
-}
-
-
-#letter11Button{
-    position: absolute;
-    border-radius: 15%;
-    width: 9%;
-    height:7%;
-    top: 110%;
-    left:45%;
-    outline: none;
-    border: none;
-    background-color: #ffffff;
-    font-family: myFont;
-    color:#630707;
-}
-
-#letter12Button{
-    position: absolute;
-    border-radius: 15%;
-    width: 9%;
-    height:7%;
-    top: 120%;
-    left:45%;
-    outline: none;
-    border: none;
-    background-color: #ffffff;
-    font-family: myFont;
-    color:#630707;
-}
-#letter13Button{
-    position: absolute;
-    border-radius: 15%;
-    width: 9%;
-    height:8%;
-    top: 130%;
-    left:45%;
-    outline: none;
-    border: none;
-    background-color: #ffffff;
-    font-family: myFont;
-    color:#630707;
-}
-#letter14Button{
-    position: absolute;
-    border-radius: 15%;
-    width: 9%;
-    height:8%;
-    top: 140%;
-    left:45%;
-    outline: none;
-    border: none;
-    background-color: #ffffff;
-    font-family: myFont;
-    color:#630707;
-}
-
-#letter15Button{
-    position: absolute;
-    border-radius: 15%;
-    width: 9%;
-    height:7%;
-    top: 150%;
-    left:45%;
-    outline: none;
-    border: none;
-    background-color: #ffffff;
-    font-family: myFont;
-    color:#630707;
-}
-#letter16Button{
-    position: absolute;
-    border-radius: 15%;
-    width: 9%;
-    height:7%;
-    top: 160%;
-    left:45%;
-    outline: none;
-    border: none;
-    background-color: #ffffff;
-    font-family: myFont;
-    color:#630707;
-}
-
-#letter17Button{
-    position: absolute;
-    border-radius: 15%;
-    width: 9%;
-    height:7%;
-    top: 170%;
-    left:45%;
-    outline: none;
-    border: none;
-    background-color: #ffffff;
-    font-family: myFont;
-    color:#630707;
+    color: #630707;
+    text-align: center;
 }
 
 ::-webkit-scrollbar{
@@ -451,7 +236,7 @@ body{
         left: 67%;
         top: 88.5%;
         width:35%;
-        height: 7%;
+        height: 7.2%;
         transform: translate(-78%, -73%);
     }
     .bloc4{
@@ -469,6 +254,8 @@ body{
         top:5rem;
         bottom: 5rem;
     }
+
+   
 
 }
 
@@ -505,6 +292,18 @@ body{
         max-height: 100%;
         top :5rem;
         bottom: 5rem;
+    }
+
+    #popup {
+        width: 90vw;
+        max-height: 60vh;
+        padding: 3px;
+    }
+
+    #popupText {
+        font-size: 1.1rem; 
+        line-height: 1.5;
+        padding: 0;
     }
 
 }

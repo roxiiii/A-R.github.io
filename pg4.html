@@ -12,7 +12,6 @@
             overflow: auto;
             width: 50%;
             height: 70%;
-            padding: 20px;
             border-radius: 5px;
             position: absolute;
             top: 50%;   
@@ -21,6 +20,7 @@
             box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
             text-align: justify;
             z-index:3;
+            padding: 0;
         }
 
         #wrapper {
@@ -28,7 +28,8 @@
             text-align: justify;
             font-family: Arial, sans-serif;
             max-height: 70vh;  /* Limit height */
-            max-width: 70vh;
+            max-width: 80vh;
+            padding: 0;
         }
 
         .close-btn {
@@ -70,21 +71,30 @@
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
-            max-width: 80vw;  /* Adjust width as needed */
-            max-height: 80vh;  /* Set max height */
-            overflow-y: auto;  /* Enable vertical scrolling */
+            width: 70vw; /* Adjust width */
+            max-width: 85vw; /* Allow more space */
+            max-height: 75vh; /* Prevent overflow */
+            overflow-y: auto;
             background: white;
-            padding: 20px;
+            padding: 5px; /* Minimal padding */
+            margin: 0;
+            border-radius: 10px;
             border: 2px solid black;
             z-index: 1000;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
         }
+
         #popupText {
-            font-size: 1.2rem; /* Adjust for readability */
-            line-height: 1.6; /* Improve spacing */
+            font-size: 1rem; 
+            line-height: 1.8;   
             text-align: justify;
-            overflow-y: auto; /* Ensure text scrolls */
-            max-height: 65vh; /* Prevent the text from overflowing */
-            padding-right: 10px; /* Avoid cutting text */
+            white-space: normal;
+            word-wrap: break-word;
+            overflow-y: auto;
+            max-height: 65vh;
+            padding: 2px; 
+            margin: 0;    
+            width: 100%;  
         }
     </style>
 </head>
